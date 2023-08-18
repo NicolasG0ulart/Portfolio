@@ -1,19 +1,20 @@
-<p align="center"> <img src="https://i.imgur.com/p3MghsL.png" alt="Print do projeto"> </p>
+<p align="center"> <img src="https://i.imgur.com/6i5zjy9.jpg" alt="Print do projeto"> </p>
 
 <hr>
 
-<p align="center">Site fictício da Razer</p>
+<p align="center">Portfólio Pessoal</p>
 
 
-## PROJETO FINALIZADO
+## PROJETO EM ANDAMENTO - MOBILE FIRST
 
 
 ## Tecnologias utilizadas no projeto
 * React JS
+* React Icons
 * Styled-components
 
 ## Link do projeto online
-[https://login-screen-goulart.netlify.app](https://razer-goulart.netlify.app)
+[Portfólio Nicolas Goulart](https://nicolasgoulart-portfolio.netlify.app)
 
 
 
