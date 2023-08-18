@@ -13,6 +13,11 @@ export default function Button({colorBorderButton, textButton, iconButton}){
         align-items: center;
         gap: 15px;
         font-weight: 600;
+        transition: .4s;
+        &:hover{
+            cursor: pointer;
+            background-color: #202020;
+        }
 
         @media(max-width: 375px){
             padding-inline: 15px;

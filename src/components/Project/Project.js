@@ -17,6 +17,13 @@ export default function Project({srcImage, nameProject, descriptionProject, tecn
             height: 160px;
             text-align: center;
             line-height: 160px;
+            @media(min-width: 1024px){
+                height: 200px;
+            }
+        }
+        @media(min-width: 1024px){
+            margin: 0;
+            width: 420px;
         }
     `
     const NameProject = styled.p`
@@ -54,6 +61,9 @@ export default function Project({srcImage, nameProject, descriptionProject, tecn
         justify-content: center;
         gap: 15px;
         font-weight: 400;
+        @media(min-width: 1024px){
+            width: 180px;
+        }
     `
 
     return(

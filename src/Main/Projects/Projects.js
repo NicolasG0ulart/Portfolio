@@ -8,33 +8,35 @@ export default function Projects(){
 
     return(
         <>
-            <S.Projects>
+            <S.ProjectsSection>
                 <S.TitleSection>PROJETOS</S.TitleSection>
-                <Project
-                    srcImage=""
-                    nameProject="Nome do Projeto"
-                    descriptionProject="Descrição genérica aleatória para um projeto que será adicionado eventualmente neste campo"
-                    tecnology="React.js, HTML, CSS, JavaScript"
-                />
-                <Project
-                    srcImage=""
-                    nameProject="Nome do Projeto"
-                    descriptionProject="Descrição genérica aleatória para um projeto que será adicionado eventualmente neste campo"
-                    tecnology="React.js, HTML, CSS, JavaScript"
-                />
-                <Project
-                    srcImage=""
-                    nameProject="Nome do Projeto"
-                    descriptionProject="Descrição genérica aleatória para um projeto que será adicionado eventualmente neste campo"
-                    tecnology="React.js, HTML, CSS, JavaScript"
-                />
-                <Project
-                    srcImage=""
-                    nameProject="Nome do Projeto"
-                    descriptionProject="Descrição genérica aleatória para um projeto que será adicionado eventualmente neste campo"
-                    tecnology="React.js, HTML, CSS, JavaScript"
-                />
-            </S.Projects>
+                <S.Projects>
+                    <Project
+                        srcImage="https://portfolio-nicolas-goulart.netlify.app/static/media/project-home-you.3d197076647ad151b343.PNG"
+                        nameProject="Nome do Projeto"
+                        descriptionProject="Descrição genérica aleatória para um projeto que será adicionado eventualmente neste campo"
+                        tecnology="React.js, HTML, CSS, JavaScript"
+                    />
+                    <Project
+                        srcImage="https://portfolio-nicolas-goulart.netlify.app/static/media/project-home-you.3d197076647ad151b343.PNG"
+                        nameProject="Nome do Projeto"
+                        descriptionProject="Descrição genérica aleatória para um projeto que será adicionado eventualmente neste campo"
+                        tecnology="React.js, HTML, CSS, JavaScript"
+                    />
+                    <Project
+                        srcImage="https://portfolio-nicolas-goulart.netlify.app/static/media/project-home-you.3d197076647ad151b343.PNG"
+                        nameProject="Nome do Projeto"
+                        descriptionProject="Descrição genérica aleatória para um projeto que será adicionado eventualmente neste campo"
+                        tecnology="React.js, HTML, CSS, JavaScript"
+                    />
+                    <Project
+                        srcImage="https://portfolio-nicolas-goulart.netlify.app/static/media/project-home-you.3d197076647ad151b343.PNG"
+                        nameProject="Nome do Projeto"
+                        descriptionProject="Descrição genérica aleatória para um projeto que será adicionado eventualmente neste campo"
+                        tecnology="React.js, HTML, CSS, JavaScript"
+                    />
+                </S.Projects>
+            </S.ProjectsSection>
         </>
     )
 }

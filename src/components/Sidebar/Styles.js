@@ -1,6 +1,9 @@
 import styled from "styled-components"
 
 export const SidebarSection = styled.section`
+    @media(min-width: 769px){
+        display: none;
+    }
 `
 export const ListMobile = styled.div`
     position: absolute;
@@ -17,6 +20,7 @@ export const ListMobile = styled.div`
     transition: 0.4s;
     &.open {
         left: 0;
+        position: fixed;
     }
 
     h3{

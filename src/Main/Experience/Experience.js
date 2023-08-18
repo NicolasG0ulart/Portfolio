@@ -11,9 +11,11 @@ export default function Experience(){
                 <S.AboutPosition>
                     <S.NamePosition>Shadow Desenvolvedor Front-End</S.NamePosition>
                     <S.NameCompany>Vai na Web <span>Set. 2022 - Jan. 2023</span></S.NameCompany>
-                    <S.DescriptionPosition>DESCRIÇÃO CHATA QUE VOU COLOCAR AQUI DEPOIS
-                DESCRIÇÃO CHATA QUE VOU COLOCAR AQUI DEPOIS
-                DESCRIÇÃO CHATA QUE VOU COLOCAR AQUI DEPOIS</S.DescriptionPosition>
+                    <S.DescriptionPosition>
+                        DESCRIÇÃO CHATA QUE VOU COLOCAR AQUI DEPOIS
+                        DESCRIÇÃO CHATA QUE VOU COLOCAR AQUI DEPOIS
+                        DESCRIÇÃO CHATA QUE VOU COLOCAR AQUI DEPOIS
+                </S.DescriptionPosition>
                 </S.AboutPosition>
             </S.Experience>
         </>
