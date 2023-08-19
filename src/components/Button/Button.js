@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components"
 
-export default function Button({colorBorderButton, textButton, iconButton}){
+export default function Button({colorBorderButton, textButton, iconButton, linkButton}){
 
     const Button = styled.button`
         background-color: transparent;
@@ -27,10 +27,12 @@ export default function Button({colorBorderButton, textButton, iconButton}){
 
     return(
         <>
-            <Button>
-                {iconButton}
-                {textButton}
-            </Button>
+            <a href={linkButton} target="_BLANK">
+                <Button>
+                    {iconButton}
+                    {textButton}
+                </Button>
+            </a>
         </>
     )
 }

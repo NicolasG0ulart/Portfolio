@@ -30,9 +30,12 @@ export default function AboutMe(){
                     <S.Content>
                         <S.TitleSection>SOBRE MIM</S.TitleSection>
                         <S.Location>Santana do Deserto, MG</S.Location>
-                        <S.Description>DESCRIÇÃO CHATA QUE VOU COLOCAR AQUI DEPOIS
-                        DESCRIÇÃO CHATA QUE VOU COLOCAR AQUI DEPOIS
-                        DESCRIÇÃO CHATA QUE VOU COLOCAR AQUI DEPOIS
+                        <S.Description>
+                            Me chamo Nicolas tenho 19 anos de idade e sou do interior de Minas Gerais.
+                            Estudando sobre programação desde os 16 anos, me aprofundei na área de Front-end,
+                            adquirindo experiência prática em HTML, CSS, JavaScript, React.JS e testes com Jest
+                            para garantir o funcionamento dos componentes. Atualmente me aprofundando no
+                            Back-end.
                         </S.Description>
 
                         <S.DivIcons>
@@ -52,6 +55,7 @@ export default function AboutMe(){
                                 colorBorderButton={'#5e0fdb'}
                                 iconButton={<HiOutlineMail size={20}/>}
                                 textButton={'E-mail'}
+                                linkButton="mailto:nicolasgoulart5001@gmail.com"
                                 />
                             </S.Buttons>
                     </S.Content>

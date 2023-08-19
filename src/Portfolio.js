@@ -16,16 +16,29 @@ const GlobalStyle = createGlobalStyle`
 }
 body{
   background-color: #121212;
+  &::-webkit-scrollbar {
+    width: 15px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: #181818;
+  }
+  &::-webkit-scrollbar-button {
+    background-color: #5dd3de;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #5e0fdb;
+  }
+  
 }
 h1, h2, h3, h4, h5, p, button, li{
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
 }
-#page-wrap {
-  padding-bottom: 10px;
-  padding-top: 10px;
+a{
+  text-decoration: none;
 }
+
 `
 
   return(

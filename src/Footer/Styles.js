@@ -7,4 +7,15 @@ export const Footer = styled.footer`
         color: #C4C4C4;
         font-weight: 400;
     }
+    @media(min-width: 768px){
+        padding-inline: 50px;
+    }
+    @media(min-width: 1024px){
+        padding-inline: 80px;
+    }
+    @media(min-width: 1440px){
+        padding-inline: 80px;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
 `

@@ -13,26 +13,15 @@ export default function Projects(){
                 <S.Projects>
                     <Project
                         srcImage="https://portfolio-nicolas-goulart.netlify.app/static/media/project-home-you.3d197076647ad151b343.PNG"
-                        nameProject="Nome do Projeto"
-                        descriptionProject="Descrição genérica aleatória para um projeto que será adicionado eventualmente neste campo"
-                        tecnology="React.js, HTML, CSS, JavaScript"
+                        nameProject="Home You"
+                        descriptionProject="Home You é um site com um layout totalmente responsivo criado no intúito de venda de imóveis."
+                        tecnology="React.js, Styled-Components"
+                        linkProject={"https://home-you-site.netlify.app"}
                     />
                     <Project
-                        srcImage="https://portfolio-nicolas-goulart.netlify.app/static/media/project-home-you.3d197076647ad151b343.PNG"
-                        nameProject="Nome do Projeto"
-                        descriptionProject="Descrição genérica aleatória para um projeto que será adicionado eventualmente neste campo"
-                        tecnology="React.js, HTML, CSS, JavaScript"
-                    />
-                    <Project
-                        srcImage="https://portfolio-nicolas-goulart.netlify.app/static/media/project-home-you.3d197076647ad151b343.PNG"
-                        nameProject="Nome do Projeto"
-                        descriptionProject="Descrição genérica aleatória para um projeto que será adicionado eventualmente neste campo"
-                        tecnology="React.js, HTML, CSS, JavaScript"
-                    />
-                    <Project
-                        srcImage="https://portfolio-nicolas-goulart.netlify.app/static/media/project-home-you.3d197076647ad151b343.PNG"
-                        nameProject="Nome do Projeto"
-                        descriptionProject="Descrição genérica aleatória para um projeto que será adicionado eventualmente neste campo"
+                        srcImage="https://i.imgur.com/p3MghsL.png"
+                        nameProject="Projeto Razer"
+                        descriptionProject="Redesign do site da Razer com a intenção de deixa-lo mais clean e objetivo."
                         tecnology="React.js, HTML, CSS, JavaScript"
                     />
                 </S.Projects>

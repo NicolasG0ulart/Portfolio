@@ -40,11 +40,13 @@ export default function Header(){
                             colorBorderButton={'#5e0fdb'}
                             iconButton={<FiLinkedin size={20}/>}
                             textButton={'LinkedIn'}
+                            linkButton="https://www.linkedin.com/in/nicolas-goulart-a64359244/"
                             />
                             <Button
                             colorBorderButton={'#5dd3de'}
                             iconButton={<FiGithub size={20}/>}
                             textButton={'GitHub'}
+                            linkButton="https://github.com/NicolasG0ulart"
                             />
                         </S.Buttons>
                     </S.Content>

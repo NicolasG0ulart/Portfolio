@@ -4,7 +4,7 @@ import styled from "styled-components"
 //icons
 import { FiLink } from "react-icons/fi";
 
-export default function Project({srcImage, nameProject, descriptionProject, tecnology}){
+export default function Project({srcImage, nameProject, descriptionProject, tecnology, linkProject}){
 
     const Project = styled.div`
         margin-top: 40px;
@@ -14,7 +14,7 @@ export default function Project({srcImage, nameProject, descriptionProject, tecn
             border-radius: 3px;
             border-left: #5e0fdb 3px solid;
             width: 100%;
-            height: 160px;
+            height: 45vw;
             text-align: center;
             line-height: 160px;
             @media(min-width: 1024px){
@@ -48,6 +48,7 @@ export default function Project({srcImage, nameProject, descriptionProject, tecn
     `
     const ButtonStyled = styled.button`
         margin-top: 30px;
+        margin-bottom: 60px;
         width: 100%;
         background-color: transparent;
         border-top: solid #5dd3de 2px;
@@ -64,6 +65,10 @@ export default function Project({srcImage, nameProject, descriptionProject, tecn
         @media(min-width: 1024px){
             width: 180px;
         }
+        &:hover{
+            cursor: pointer;
+            background-color: #202020;
+        }
     `
 
     return(
@@ -73,10 +78,12 @@ export default function Project({srcImage, nameProject, descriptionProject, tecn
                 <NameProject>{nameProject}</NameProject>
                 <DescriptionProject>{descriptionProject}</DescriptionProject>
                 <Tecnology>Tecnologias usadas no projeto: <span>{tecnology}</span></Tecnology>
+                <a href={linkProject} target="_BLANK">
                 <ButtonStyled>
                     <FiLink size={20}/>
                     Visualizar
                 </ButtonStyled>
+                </a>
             </Project>
         </>
     )
