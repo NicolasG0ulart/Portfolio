@@ -7,8 +7,8 @@
 
 
 ## PROJETO EM ANDAMENTO
-* Layout Mobile Finish
-* Layout Desktop Finish
+* Layout Mobile Finalizado
+* Layout Desktop Finalizado
 * Rotas Pendente
 
 
