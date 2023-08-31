@@ -9,7 +9,7 @@ export default function Projects(){
     return(
         <>
             <S.ProjectsSection>
-                <S.TitleSection>PROJETOS</S.TitleSection>
+                <S.TitleSection>PROJETOS PESSOAIS</S.TitleSection>
                 <S.Projects>
                     <Project
                         srcImage="https://portfolio-nicolas-goulart.netlify.app/static/media/project-home-you.3d197076647ad151b343.PNG"
@@ -20,9 +20,17 @@ export default function Projects(){
                     />
                     <Project
                         srcImage="https://i.imgur.com/p3MghsL.png"
-                        nameProject="Projeto Razer"
+                        nameProject="Razer"
                         descriptionProject="Redesign do site da Razer com a intenção de deixa-lo mais clean e objetivo."
-                        tecnology="React.js, HTML, CSS, JavaScript"
+                        tecnology="React.js, Styled-Components"
+                        linkProject={"https://razer-goulart.netlify.app"}
+                    />
+                    <Project
+                        srcImage="https://i.imgur.com/5mCeK30.png"
+                        nameProject="9Club"
+                        descriptionProject="Projeto em andamento"
+                        tecnology="Styled-Components, React-Router, React-Icons"
+                        linkProject={"https://9club.netlify.app"}
                     />
                 </S.Projects>
             </S.ProjectsSection>

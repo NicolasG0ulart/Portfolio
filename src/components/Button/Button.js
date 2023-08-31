@@ -27,7 +27,7 @@ export default function Button({colorBorderButton, textButton, iconButton, linkB
 
     return(
         <>
-            <a href={linkButton} target="_BLANK">
+            <a href={linkButton} target="_BLANK" rel="noreferrer">
                 <Button>
                     {iconButton}
                     {textButton}

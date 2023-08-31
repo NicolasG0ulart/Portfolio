@@ -4,7 +4,7 @@ export const AboutSection = styled.section`
     background-color: #151515;
 `
 export const MyPicture = styled.img`
-    width: 370px;
+    width: 310px;
     height: 370px;
     border-left: #5e0fdb solid 4px;
     border-radius: 4px;

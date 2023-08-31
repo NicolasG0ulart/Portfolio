@@ -31,11 +31,10 @@ export default function AboutMe(){
                         <S.TitleSection>SOBRE MIM</S.TitleSection>
                         <S.Location>Santana do Deserto, MG</S.Location>
                         <S.Description>
-                            Me chamo Nicolas tenho 19 anos de idade e sou do interior de Minas Gerais.
+                            Me chamo Nicolas, tenho 19 anos de idade e sou do interior de Minas Gerais.
                             Estudando sobre programação desde os 16 anos, me aprofundei na área de Front-end,
-                            adquirindo experiência prática em HTML, CSS, JavaScript, React.JS e testes com Jest
-                            para garantir o funcionamento dos componentes. Atualmente me aprofundando no
-                            Back-end.
+                            adquirindo experiência prática em HTML, CSS, JavaScript, TypeScript, React.JS e testes com Jest
+                            para garantir o funcionamento dos componentes. Atualmente estudando Angular e Java.
                         </S.Description>
 
                         <S.DivIcons>

@@ -12,10 +12,9 @@ export default function Experience(){
                     <S.NamePosition>Shadow Desenvolvedor Front-End</S.NamePosition>
                     <S.NameCompany>Vai na Web <span>Set. 2022 - Jan. 2023</span></S.NameCompany>
                     <S.DescriptionPosition>
-                        DESCRIÇÃO CHATA QUE VOU COLOCAR AQUI DEPOIS
-                        DESCRIÇÃO CHATA QUE VOU COLOCAR AQUI DEPOIS
-                        DESCRIÇÃO CHATA QUE VOU COLOCAR AQUI DEPOIS
-                </S.DescriptionPosition>
+                        Responsável pelo desenvolvimento de web páginas responsivas e dinâmicas
+                        através de um layout com ReactJS, GraphCMS e Git.
+                    </S.DescriptionPosition>
                 </S.AboutPosition>
             </S.Experience>
         </>
