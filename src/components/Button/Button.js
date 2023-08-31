@@ -27,11 +27,7 @@ export default function Button({colorBorderButton, textButton, iconButton, linkB
 
     return(
         <>
-<<<<<<< HEAD
             <a href={linkButton} target="_BLANK" rel="noreferrer">
-=======
-            <a href={linkButton} target="_BLANK" rel="noopener noreferrer">
->>>>>>> 3ee4dec303aff2423e75cbbeb1e7ef8e3661de3d
                 <Button>
                     {iconButton}
                     {textButton}
