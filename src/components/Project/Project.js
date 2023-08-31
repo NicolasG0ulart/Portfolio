@@ -78,7 +78,7 @@ export default function Project({srcImage, nameProject, descriptionProject, tecn
                 <NameProject>{nameProject}</NameProject>
                 <DescriptionProject>{descriptionProject}</DescriptionProject>
                 <Tecnology>Tecnologias usadas no projeto: <span>{tecnology}</span></Tecnology>
-                <a href={linkProject} target="_BLANK">
+                <a href={linkProject} target="_BLANK" rel="noopener noreferrer">
                 <ButtonStyled>
                     <FiLink size={20}/>
                     Visualizar

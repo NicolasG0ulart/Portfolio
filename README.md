@@ -1,11 +1,15 @@
-<p align="center"> <img src="https://i.imgur.com/6i5zjy9.jpg" alt="Print do projeto"> </p>
+<p align="center"> <img src="https://i.imgur.com/qb56qsq.png" alt="Print do projeto"> </p>
+<p align="center"> <img src="https://i.imgur.com/Hpvq44t.png" alt="Print do projeto no celular"> </p>
 
 <hr>
 
 <p align="center">Portfólio Pessoal</p>
 
 
-## PROJETO EM ANDAMENTO - MOBILE FIRST
+## PROJETO EM ANDAMENTO
+* Layout Mobile Finalizado
+* Layout Desktop Finalizado
+* Rotas Pendente
 
 
 ## Tecnologias utilizadas no projeto
