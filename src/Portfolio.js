@@ -1,10 +1,12 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
 
+//react router
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+
 //components
-import Header from "./Header/Header";
-import Main from "./Main/Main";
-import Footer from "./Footer/Footer";
+import Home from "./pages/Home/Home"
+import Certifications from "./pages/Certifications/Certifications"
 
 export default function Portfolio(){
 
@@ -37,6 +39,10 @@ h1, h2, h3, h4, h5, p, button, li{
 }
 a{
   text-decoration: none;
+  color: #C4C4C4;
+  &:hover{
+    color: #5dd3de;
+  }
 }
 
 `
@@ -44,9 +50,13 @@ a{
   return(
     <>
       <GlobalStyle/>
-      <Header/>
-      <Main/>
-      <Footer/>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/certificacoes" element={<Certifications/>}/>
+          <Route path="*" element="not found"/>
+        </Routes>
+      </Router>
     </>
   )
 }

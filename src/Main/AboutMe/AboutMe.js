@@ -21,9 +21,7 @@ export default function AboutMe(){
 
     return(
         <>
-            <S.AboutSection>
-                
-
+            <S.AboutSection id="sobre-mim">
                 <S.AboutMe>
                     <S.MyPicture src={myPicture} alt="Uma foto minha"/>
 

@@ -50,6 +50,7 @@ export const Description = styled.p`
     margin-top: 15px;
     font-size: 1rem;
     font-weight: 300;
+    line-height: 23px;
     color: #C4C4C4;
 `
 export const DivIcons = styled.div`

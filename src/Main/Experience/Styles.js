@@ -38,9 +38,16 @@ export const NameCompany = styled.p`
     color: #5e0fdb;
     display: flex;
     justify-content: space-between;
+    &:hover{
+        cursor: pointer;
+    }
+    a{
+        color: #5e0fdb;
+    }
 `
 export const DescriptionPosition = styled.p`
     margin-top: 25px;
+    line-height: 23px;
     font-size: 1rem;
     font-weight: 300;
     color: #C4C4C4;

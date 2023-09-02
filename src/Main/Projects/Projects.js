@@ -8,7 +8,7 @@ export default function Projects(){
 
     return(
         <>
-            <S.ProjectsSection>
+            <S.ProjectsSection id="projetos">
                 <S.TitleSection>PROJETOS PESSOAIS</S.TitleSection>
                 <S.Projects>
                     <Project
@@ -31,6 +31,13 @@ export default function Projects(){
                         descriptionProject="Projeto em andamento"
                         tecnology="Styled-Components, React-Router, React-Icons"
                         linkProject={"https://9club.netlify.app"}
+                    />
+                    <Project
+                        srcImage="https://i.imgur.com/7N2pKiJ.png"
+                        nameProject="Ikari arts"
+                        descriptionProject="Exposição de algumas artes de um Desenhista"
+                        tecnology="React.js, Styled-Components"
+                        linkProject={"https://ikari-arts.netlify.app"}
                     />
                 </S.Projects>
             </S.ProjectsSection>

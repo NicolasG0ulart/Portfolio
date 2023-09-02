@@ -1,6 +1,9 @@
 import React from "react";
 import * as S from "./Styles"
+import { Link } from "react-scroll";
 
+//LinkR === Link + Router
+import { Link as LinkR } from "react-router-dom"
 //components
 import Siderbar from "../components/Sidebar/Sidebar";
 import Button from "../components/Button/Button";
@@ -16,16 +19,16 @@ export default function Header(){
 
     return(
         <>
-            <S.Header>
+            <S.Header id="inicio">
                 <S.Navigation>
                     <h3>Portfólio</h3>
                     <Siderbar/>
                     <ul>
-                        <li>Início</li>
-                        <li>Sobre mim</li>
-                        <li>Experiência</li>
-                        <li>Projetos</li>
-                        <li>Certificações</li>
+                        <li><Link to="inicio" smooth={true}>Início</Link></li>
+                        <li><Link to="sobre-mim" smooth={true}>Sobre mim</Link></li>
+                        <li><Link to="experiencia" smooth={true}>Experiência</Link></li>
+                        <li><Link to="projetos" smooth={true}>Projetos</Link></li>
+                        <li><LinkR to="/certificacoes">Certificações</LinkR></li>
                     </ul>
                 </S.Navigation>
 
