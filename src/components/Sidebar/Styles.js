@@ -1,5 +1,9 @@
 import styled from "styled-components"
+import { Link } from "react-scroll";
 
+export const LinkReactScroll = styled(Link)`
+    width: 100%;
+`
 export const SidebarSection = styled.section`
     @media(min-width: 769px){
         display: none;

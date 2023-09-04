@@ -1,0 +1,52 @@
+{
+    "certification": [
+        {
+            "id": 1,
+            "platform": "alura",
+            "urlImage": "https://i.imgur.com/18cQuBJ.png",
+            "name": "JavaScript: Criando Requisições",
+            "description": "Criando requisições no javascript utilizando fetch.",
+            "workload": "8 horas."
+        },
+        {
+            "id": 2,
+            "platform": "alura",
+            "urlImage": "https://i.imgur.com/ZD6zJav.png",
+            "name": "JavaScript: LocalStorage",
+            "description": "Armazenando e manipulando dados no navegador",
+            "workload": "6 horas."
+        },
+        {
+            "id": 3,
+            "platform": "alura",
+            "urlImage": "https://i.imgur.com/XiWiKs0.png",
+            "name": "JavaScript: Validando formulários",
+            "description": "Realizando validações de formulários com JavaScript",
+            "workload": "8 horas."
+        },
+        {
+            "id": 4,
+            "platform": "dio",
+            "urlImage": "https://i.imgur.com/WOlIShv.png",
+            "name": "Versionamento com Git e Github",
+            "description": "Versiosamento de código e controle de versão com Git e Github.",
+            "workload": "2 horas."
+        },
+        {
+            "id": 5,
+            "platform": "dio",
+            "urlImage": "https://i.imgur.com/niDjX2c.png",
+            "name": "TypeScript",
+            "description": "TypeScript para Angular",
+            "workload": "3 horas."
+        },
+        {
+            "id": 6,
+            "platform": "dio",
+            "urlImage": "https://i.imgur.com/dpmtxJR.png",
+            "name": "Web Components",
+            "description": "Trabalhando com Web Components no Front-end",
+            "workload": "3 horas."
+        }
+    ]
+}

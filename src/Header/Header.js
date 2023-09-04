@@ -21,7 +21,7 @@ export default function Header(){
         <>
             <S.Header id="inicio">
                 <S.Navigation>
-                    <h3>Portfólio</h3>
+                    <h3><Link to="inicio" smooth={true}></Link>Portfólio</h3>
                     <Siderbar/>
                     <ul>
                         <li><Link to="inicio" smooth={true}>Início</Link></li>
