@@ -11,13 +11,29 @@
         {
             "id": 2,
             "platform": "alura",
+            "urlImage": "https://i.imgur.com/ZlK47fY.png",
+            "name": "JavaScript: Manipulando o DOM",
+            "description": "Utilizando JavaScript para manipular o DOM",
+            "workload": "6 horas."
+        },
+        {
+            "id": 3,
+            "platform": "alura",
+            "urlImage": "https://i.imgur.com/JJl5CiF.png",
+            "name": "JavaScript: Criando páginas dinâmicas",
+            "description": "Utilizando JavaScript para criação de web páginas dinâmicas",
+            "workload": "10 horas."
+        },
+        {
+            "id": 4,
+            "platform": "alura",
             "urlImage": "https://i.imgur.com/ZD6zJav.png",
             "name": "JavaScript: LocalStorage",
             "description": "Armazenando e manipulando dados no navegador",
             "workload": "6 horas."
         },
         {
-            "id": 3,
+            "id": 5,
             "platform": "alura",
             "urlImage": "https://i.imgur.com/XiWiKs0.png",
             "name": "JavaScript: Validando formulários",
@@ -25,7 +41,7 @@
             "workload": "8 horas."
         },
         {
-            "id": 4,
+            "id": 6,
             "platform": "dio",
             "urlImage": "https://i.imgur.com/WOlIShv.png",
             "name": "Versionamento com Git e Github",
@@ -33,7 +49,7 @@
             "workload": "2 horas."
         },
         {
-            "id": 5,
+            "id": 7,
             "platform": "dio",
             "urlImage": "https://i.imgur.com/niDjX2c.png",
             "name": "TypeScript",
@@ -41,7 +57,7 @@
             "workload": "3 horas."
         },
         {
-            "id": 6,
+            "id": 8,
             "platform": "dio",
             "urlImage": "https://i.imgur.com/dpmtxJR.png",
             "name": "Web Components",
