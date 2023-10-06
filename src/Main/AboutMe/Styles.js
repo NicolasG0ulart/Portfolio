@@ -3,15 +3,53 @@ import styled from "styled-components"
 export const AboutSection = styled.section`
     background-color: #151515;
 `
+export const TextInspiration = styled.div`
+    position: absolute;
+    top: 0;
+    left: -310px;
+    opacity: 0;
+    transition: .4s;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #151515;
+    border-left: #5dd3de solid 4px;
+    width: 310px;
+    height: 370px;
+    border-radius: 4px;
+    padding: 20px;
+
+    p{
+        text-align: left;
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 23px;
+        color: #C4C4C4;
+    }
+
+    @media(max-width: 1024px){
+        display: none;
+    }
+`
+export const TextAnimation = styled.div`
+    position: relative;
+    &:hover > ${TextInspiration} {
+        opacity: 1;
+        left: 1.5px;
+    }
+`
 export const MyPicture = styled.img`
     width: 310px;
     height: 370px;
     border-left: #5e0fdb solid 4px;
     border-radius: 4px;
+    transition: .4;
     @media(max-width: 1024px){
         display: none;
     }
 `
+
 export const AboutMe = styled.section`
     display: flex;
     justify-content: space-between;

@@ -23,7 +23,18 @@ export default function AboutMe(){
         <>
             <S.AboutSection id="sobre-mim">
                 <S.AboutMe>
-                    <S.MyPicture src={myPicture} alt="Uma foto minha"/>
+                    <S.TextAnimation>
+                        <S.MyPicture src={myPicture} alt="Uma foto minha"/>
+                        <S.TextInspiration className="text-inspiration">
+                            <p>
+                                Nada no mundo consegue tomar o lugar da persistência.
+                                O talento não consegue; nada é mais comum que homens fracassados com talento.
+                                A genialidade não consegue; gênios não recompensados é quase um provérbio.
+                                A educação não consegue; o mundo é cheio de errantes educados.
+                                A persistência e a determinação sozinhas são onipotentes.
+                            </p>
+                        </S.TextInspiration>
+                    </S.TextAnimation>
 
                     <S.Content>
                         <S.TitleSection>SOBRE MIM</S.TitleSection>
